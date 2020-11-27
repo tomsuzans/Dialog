@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Dialog</string>-->
+    <string name="txtVwTitleA1">1-st Activity</string>
+    <string name="btnToDialog">Dialog</string>
+    <string name="btnToA2">2-nd Activity</string>
+    <string name="txtVwTitleA2">2-nd Activity</string>
+    <string name="btnToA1">1-st Activity</string>
+    <string name="dialogName">Test</string>
+    <string name="toastAppear">Selected %s </string>
+    <string name="toastDisapear">Unselected %s </string>
+    <string name="dialogBtnOK">OK</string>
+    <string name="dialogBtnClose">Close</string>
+    <string name="button">%s button clicked</string>
+
+<!--    <string name="onAttachErrorMsg"> must implement onMultiChoiceListenert</string>-->
+    <string-array name="groupMembers">
+        <item>Toms Užāns</item>
+        <item>Užāns Toms</item>
+    </string-array>
+
+</resources>
