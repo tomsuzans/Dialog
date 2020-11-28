@@ -42,13 +42,13 @@ public class activity1 extends AppCompatActivity {
                                 .setPositiveButton(getString(R.string.dialogBtnOK), new DialogInterface.OnClickListener() {
                                     @Override
                                     public void onClick(DialogInterface dialog, int which) {
-                                        Toast.makeText (activity1.this, String.format(getString(R.string.button),getString(R.string.dialogBtnOK) ),Toast.LENGTH_LONG).show();
+                                        Toast.makeText (activity1.this, String.format(getString(R.string.button),getString(R.string.dialogBtnOK) ),Toast.LENGTH_SHORT).show();
                                     }
                                 })
                                 .setNegativeButton(getString(R.string.dialogBtnClose), new DialogInterface.OnClickListener() {
                                     @Override
                                     public void onClick(DialogInterface dialog, int which) {
-                                        Toast.makeText (activity1.this, String.format(getString(R.string.button),getString(R.string.dialogBtnClose) ),Toast.LENGTH_LONG).show();
+                                        Toast.makeText (activity1.this, String.format(getString(R.string.button),getString(R.string.dialogBtnClose) ),Toast.LENGTH_SHORT).show();
                                     }
                                 });
                         alerBuilder.show();
